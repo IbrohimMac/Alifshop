@@ -1,6 +1,8 @@
+import React from "react";
 import { ProductType } from "@/types/product.types";
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import { SlBasket } from "react-icons/sl";
 
 const ProductCard = ({ product }: { product: ProductType }) => {
   return (
@@ -25,6 +27,12 @@ const ProductCard = ({ product }: { product: ProductType }) => {
           ).toFixed(2)}
           $
         </div>
+        <Link href="/cart">
+          <button className="inCardBut">
+            <SlBasket style={{ marginTop: 3 }} />
+            Savatga
+          </button>
+        </Link>
       </div>
     </div>
   );

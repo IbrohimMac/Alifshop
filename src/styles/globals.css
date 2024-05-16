@@ -70,3 +70,21 @@ nav {
 main {
   margin-top: 150px;
 }
+
+.inCardBut {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  background-color: #ffbe1f;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.inCardBut:hover {
+  background-color: #f2cf77;
+  transition: 0.4s;
+  cursor: pointer;
+}

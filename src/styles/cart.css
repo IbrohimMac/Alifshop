@@ -1,0 +1,42 @@
+.cartMain {
+  margin-top: 150px;
+  text-align: center;
+}
+.cartH {
+  font-size: 25px;
+}
+.cartP {
+  width: 320px;
+  /* font-size: 20px; */
+  margin-top: 10px;
+  margin-left: 470px;
+  color: #797878;
+}
+.cartBut {
+  /* margin-top: 30px; */
+  width: 300px;
+  height: 50px;
+  background-color: #ffbe1f;
+  border-radius: 5px;
+  margin-top: 25px;
+  color: black;
+}
+.cartBut:hover {
+  background-color: #f2cf77;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.cartBut2 {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.cartBut2:hover {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  transition: 0.4s;
+}

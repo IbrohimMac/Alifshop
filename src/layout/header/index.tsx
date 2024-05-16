@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { TfiMenu } from "react-icons/tfi";
-// import { FaSearch } from "react-icons/fa";
 import { SlBasket } from "react-icons/sl";
 import { FaHeart } from "react-icons/fa";
 
@@ -10,12 +10,15 @@ const Header = () => {
     <header>
       <div className="container">
         <nav>
-          <Image
-            src="/alifshop-logo.svg"
-            width={113}
-            height={32}
-            alt="Germany"
-          />
+          <Link href="/">
+            <Image
+              style={{ marginTop: 5 }}
+              src="/alifshop-logo.svg"
+              width={113}
+              height={32}
+              alt="Germany"
+            />
+          </Link>
           <button className="head-but">
             <TfiMenu style={{ marginTop: "3px" }} />
             Tovarlar katalogi
@@ -26,10 +29,12 @@ const Header = () => {
             placeholder="Tovarlarni izlash"
           />
           <div className="head-icon">
-            <div className="head-i">
-              <SlBasket style={{ fontSize: "20", marginLeft: 12 }} />
-              <p>Savat</p>
-            </div>
+            <Link href="/cart">
+              <div className="head-i">
+                <SlBasket style={{ fontSize: "20", marginLeft: 12 }} />
+                <p>Savat</p>
+              </div>
+            </Link>
             <div className="head-i">
               <FaHeart style={{ fontSize: "20", marginLeft: 37 }} />
               <p>Saralanganlar</p>

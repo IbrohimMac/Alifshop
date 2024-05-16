@@ -1,0 +1,44 @@
+.footBig {
+  max-width: 100%;
+  height: 432px;
+  margin-top: 159.5px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #24272c;
+}
+.footFir {
+  margin-top: 110px;
+}
+.footSec {
+  margin-top: 110px;
+}
+.footThi {
+  margin-top: 110px;
+}
+.footFou {
+  margin-top: 110px;
+}
+.footP1 {
+  color: #5d6d7d;
+  margin-top: 15px;
+}
+.footP2 {
+  color: white;
+  margin-top: 15px;
+}
+.footP2:hover {
+  color: #f2cf77;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.footIcon {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  color: rgb(145, 139, 145);
+}
+.ooo {
+}
